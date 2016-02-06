@@ -9,3 +9,19 @@ h1 {
 h1 {
   font-family: 'PT sans', serif;
 }
+
+nav {
+  font-family: 'PT sans', serif;
+}
+
+ol {
+  list-style: none;
+}
+
+a {
+  color: #80354a
+}
+
+a:hover {
+  color: #391519
+}
