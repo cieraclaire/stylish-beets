@@ -1,51 +1,70 @@
 html {
-  background-color: #c9b5ae
+  font-family: "PT Serif", serif;
+  background-color: #c9b5ae;
+  line-height: 1.5;
 }
 
-h1 {
-  color: #391519
+h1 h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #560f1d;
 }
 
-h1 {
-  font-family: 'PT sans', serif;
-}
-
-nav {
-  font-family: 'PT sans', serif;
-}
-
-ol {
-  list-style: none;
+nav ol {
+  list-style-type: none;
 }
 
 a {
-  color: #80354a
+  color: #9e1d3b;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
 }
 
 a:hover {
-  color: #391519
-}
-
-a:hover {
+  color: #441331;
   text-decoration: underline;
 }
 
-a {
-  font-size: 1.5em;
+img {
+  width: 100%;
 }
 
-a {
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+.firstparagraph {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+blockquote strong {
+  font-weight: normal;
+}
+
+.name {
+  font-size: .8rem;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+.serving {
+  font-style: italic;
+}
+
+dl dt {
   font-weight: bold;
 }
 
-a {
-  text-decoration: none;
-}
-
-p:first-of-type {
-  font-size: 1.5em;
-}
-
-p:first-of-type {
-  font-family: 'PT serif' serif;
+ul {
+  list-style: circle;
+  font-size: .8rem;
 }
